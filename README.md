@@ -16,4 +16,5 @@ Installieren Sie Vagrant (http://www.vagrantup.com).
 ### 2. Vagrantfile
 
 Kopieren oder klonen Sie das Vagrantfile und führen Sie folgenden Befehl aus:
+
     vagrant up
