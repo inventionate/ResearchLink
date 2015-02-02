@@ -42,6 +42,14 @@ Nun steht Ihnen eine wie zuvor beschrieben konfigurerte Linux Umgebung zur Verf√
     python
     sdaps
     pdflatex
+
+Um die Umgebung zu verlassen verwenden Sie:
+    
+    exit
+    
+Die virtuelle Maschine l√§sst sich mit folgendem Befehl pausieren:
+
+    vagrant halt
     
 ## Proxykonfiguration
 
