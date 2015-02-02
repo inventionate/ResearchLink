@@ -35,7 +35,7 @@ Der Installationsvorgang kann mehrere Minuten in Anspruch nehmen. Sobald er been
 
     vagrant ssh
     
-Nun steht Ihnen eine wie zuvor beschrieben konfigurerte Linux Umgebung zur verfügung. D.h., die können z.B. folgende Befehle nutzen:
+Nun steht Ihnen eine wie zuvor beschrieben konfigurerte Linux Umgebung zur Verfügung. D.h., die können z.B. folgende Befehle ausführen:
 
     R
     ruby
@@ -45,6 +45,6 @@ Nun steht Ihnen eine wie zuvor beschrieben konfigurerte Linux Umgebung zur verf�
     
 ## Proxykonfiguration
 
-Sollten Sie gezwungen sein einen Proxy zu nutzen Sie bitte folgendes Plugin:
+Sollten Sie gezwungen sein einen Proxy zu nutzen verwenden Sie folgendes Plugin und passen die Vagrantfile Datei entsprechend an:
 
 https://github.com/tmatilai/vagrant-proxyconf
