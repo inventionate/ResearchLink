@@ -42,4 +42,5 @@ Nun steht Ihnen eine wie zuvor beschrieben konfigurerte Linux Umgebung zur verf√
     
 ## Proxykonfiguration
 
-Sollten Sie gezwungen sein einen Proxy zu nutzen Sie bitte folgendes Plugin: https://github.com/tmatilai/vagrant-proxyconf
+Sollten Sie gezwungen sein einen Proxy zu nutzen Sie bitte folgendes Plugin: 
+https://github.com/tmatilai/vagrant-proxyconf
