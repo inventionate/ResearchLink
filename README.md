@@ -35,7 +35,7 @@ Der Installationsvorgang kann mehrere Minuten in Anspruch nehmen. Sobald er been
 
     vagrant ssh
     
-Nun steht Ihnen eine wie zuvor beschrieben konfigurerte Linux Umgebung zur verfügung. D.h., die können z.B. folgende Befhele nutzen:
+Nun steht Ihnen eine wie zuvor beschrieben konfigurerte Linux Umgebung zur verfügung. D.h., die können z.B. folgende Befehle nutzen:
 
     R
     ruby
