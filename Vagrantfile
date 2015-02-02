@@ -14,8 +14,10 @@ Vagrant.configure(2) do |config|
   # the path on the host to the actual folder. The second argument is
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
-  # config.vm.synced_folder "../data", "/vagrant_data"
+  config.vm.synced_folder "~/Matrix/Dissertation", "/home/vagrant/Dissertation"
+  config.vm.synced_folder "~/Matrix/Inventionate", "/home/vagrant/Inventionate"
 
+  # Additional software.
   config.vm.provision "shell", inline: <<-SHELL
     sudo apt-get update
     # LaTeX installieren
@@ -28,17 +30,17 @@ Vagrant.configure(2) do |config|
     sudo add-apt-repository "http://ppa.launchpad.net/benjamin-sipsolutions/sdaps/ubuntu trusty main"
     sudo apt-get update
     sudo apt-get install -y sdaps --force-yes
-    # DIR="$(kpsewhich -expand-var '$TEXMFDIST')/tex/latex"
-    # sudo mkdir $DIR/sdaps
-    # sudo cp -R /usr/share/sdaps/tex/* $DIR/sdaps
-    # sudo texconfig rehash
+    DIR="$(kpsewhich -expand-var '$TEXMFDIST')/tex/latex"
+    sudo mkdir $DIR/sdaps
+    sudo cp -R /usr/share/sdaps/tex/* $DIR/sdaps
+    sudo texconfig rehash
     # R Installieren
     sudo apt-get install -y r-base
-    # # RStudio Server
-    sudo apt-get install -y gdebi-core
-    sudo apt-get install -y libapparmor1 # Required only for Ubuntu, not Debian
-    wget http://download2.rstudio.org/rstudio-server-0.98.1091-amd64.deb
-    sudo gdebi rstudio-server-0.98.1091-amd64.deb
   SHELL
+
+
+  # R Packete konfiguirieren
+  # Shellskript laden und als R Skript ausführen.
+  # #!/usr/bin/r
 
 end

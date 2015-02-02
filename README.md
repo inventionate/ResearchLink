@@ -6,7 +6,6 @@ Eine Vagrant Umgabeung basierend auf *Ubuntu Server 14.04.1 LTS*. Folgende Paket
 - Python
 - SDAPS
 - R
-- RStudio Server
 
 ## Installationshinweise
 
