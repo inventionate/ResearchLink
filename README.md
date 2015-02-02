@@ -38,7 +38,10 @@ Der Installationsvorgang kann mehrere Minuten in Anspruch nehmen. Sobald er been
 Nun steht Ihnen eine wie zuvor beschrieben konfigurerte Linux Umgebung zur verfügung. D.h., die können z.B. folgende Befhele nutzen:
 
     R
-    install.packages("FactoMineR")
+    ruby
+    python
+    sdaps
+    pdflatex
     
 ## Proxykonfiguration
 
